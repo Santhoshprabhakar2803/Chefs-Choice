@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".APP_EXIT"
+    android:background="#fff4d7">
+
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/mlogo"
+            android:alpha="0.1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/vv"
+            android:layout_height="wrap_content"
+            android:text="THANKYOU"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="50dp"
+            android:textStyle="italic"
+            android:layout_marginTop="150dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTINUE"
+            android:layout_below="@+id/vv"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/b1"
+            android:textColor="#1f8965"
+            android:background="#f5dc98"
+            android:textSize="15dp"
+            android:textStyle="italic"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOG OUT"
+            android:layout_below="@+id/b1"
+            android:layout_marginTop="15dp"
+            android:textSize="15dp"
+            android:textColor="#1f8965"
+            android:background="#f5dc98"
+            android:textStyle="italic"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/b2"/>
+
+
+</RelativeLayout>
